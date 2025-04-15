@@ -80,15 +80,17 @@ Then use:
 - **Roll (°):**
   ```excel
   =ATAN2(D2, E2) * 180 / PI()
-
+  ```
   Alternate In Excel (assuming AX in cell D2, AY in E2, AZ in F2):
   ```excel
   =DEGREES(ATAN2(D2, SQRT(E2^2 + F2^2)))
+  ```
 
 - **Pitch (°):**
-  ```excel
+   ```excel
     =ATAN2(-C2, SQRT(D2^2 + E2^2)) * 180 / PI()
-  Alternate In Excel (assuming AX in cell D2, AY in E2, AZ in F2):
-  ```excel
-  =DEGREES(ATAN2(E2, SQRT(D2^2 + F2^2)))
-
+  ```
+    Alternate In Excel (assuming AX in cell D2, AY in E2, AZ in F2):
+     ```excel
+     =DEGREES(ATAN2(E2, SQRT(D2^2 + F2^2)))
+  ```
